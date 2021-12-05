@@ -1,0 +1,70 @@
+# compiled output
+/backend/dist
+/backend/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/backend/coverage
+/backend/.nyc_output
+
+# IDEs and editors
+/backend/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/frontend/dist
+/frontend/tmp
+/frontend/out-tsc
+# Only exists if Bazel was run
+/frontend/bazel-out
+
+# dependencies
+/frontend/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/frontend/.idea
+
+# IDE - VSCode
+.history/*
+
+# misc
+/frontend/.angular/cache
+/frontend/.sass-cache
+/frontend/connect.lock
+/frontend/coverage
+/frontend/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/frontend/typings
+
+# System Files
+Thumbs.db
